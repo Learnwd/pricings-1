@@ -1,12 +1,12 @@
 /*start of pricings-1*/
 
 .pricings-1 {
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/bg.png");
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://i.imgur.com/JQJ4PfB.png");
 	background-size: cover;
 	background-position: center top;
 	color: #ffffff;
 	font-family: 'Source Sans Pro', sans-serif;
-	padding: 150px 0;
+	padding: 100px 0; 
 }
 
 .pricings-1 .price-table {
@@ -144,6 +144,15 @@
 	.pricings-1 .border-right {
 		border-right: none !important;
 	}
+}
+
+@media (min-width: 992px) {
+    .pricings-1 {
+        height: 100vh;
+        padding-top: 0px;
+        padding-bottom: 0px
+        
+    }
 }
 
 
