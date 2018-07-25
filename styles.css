@@ -1,0 +1,150 @@
+/*start of pricings-1*/
+
+.pricings-1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/bg.png");
+	background-size: cover;
+	background-position: center top;
+	color: #ffffff;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 150px 0;
+}
+
+.pricings-1 .price-table {
+	background: #ffffff;
+}
+
+.pricings-1 .blue {
+	background: #d9e8e6;
+}
+
+.pricings-1 .text-field {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.pricings-1 .features {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.pricings-1 .rounded-left {
+	border-top-left-radius: 1rem!important;
+	border-bottom-left-radius: 1rem!important;
+}
+
+.pricings-1 .rounded-right {
+	border-top-right-radius: 1rem!important;
+	border-bottom-right-radius: 1rem!important;
+}
+
+.pricings-1 .border-left {
+	border-right: 1px solid #ebebeb!important;
+}
+
+.pricings-1 .border-right {
+	border-right: 1px solid #ebebeb!important;
+}
+
+.pricings-1 h1 {
+	font-size: 3.25rem;
+	margin-bottom: 1em;
+	margin-top: .3em;
+	font-weight: 300;
+}
+
+.pricings-1 h2 {
+	font-size: 1.25rem;
+	letter-spacing: 2px;
+	margin-bottom: 0.5em;
+	margin-top: .3em;
+	font-weight: 700;
+	color: #303030;
+}
+
+.pricings-1 h3 {
+	font-size: 8.75rem;
+	font-weight: 200;
+	line-height: 1;
+	color: #303030;
+}
+
+.pricings-1 h4 {
+	font-size: 0.8125rem;
+	letter-spacing: 1px;
+	margin-bottom: 0.5em;
+	margin-top: .3em;
+	font-weight: 400;
+	color: #303030;
+	opacity: 0.6;
+}
+
+.pricings-1 p {
+	font-size: 1.0625rem;
+	margin-bottom: 0.2em;
+	margin-top: .2em;
+	font-weight: 600;
+	color: #303030;
+}
+
+.pricings-1 strong {
+	color: #101010;
+}
+
+.pricings-1 .fas {
+	font-size: 2rem;
+	font-weight: light;
+	opacity: 0.6;
+}
+
+.pricings-1 .price-tag {}
+
+.pricings-1 i {
+	vertical-align: 75px;
+	margin-left: -21px;
+}
+
+.pricings-1 .btn-primary {
+	width: 100%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background: #009588;
+	border: 1px solid #009588;
+	font-size: 1.25rem;
+	margin-top: 1.8em;
+	margin-bottom: 0.3em;
+}
+
+.pricings-1 .btn-secondary {
+	width: 100%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background: #ea1d63;
+	border: 1px solid #ea1d63;
+	font-size: 1.25rem;
+	margin-top: 1.8em;
+	margin-bottom: 0.3em;
+}
+
+@media (max-width: 992px) {
+	.pricings-1 .price-table {
+		margin-top: 1.8rem;
+		margin-bottom: 1.8rem;
+	}
+	.pricings-1 .rounded-left {
+		border-top-left-radius: 0rem!important;
+		border-bottom-left-radius: 0rem!important;
+	}
+	.pricings-1 .rounded-right {
+		border-top-right-radius: 0rem!important;
+		border-bottom-right-radius: 0rem!important;
+	}
+	.pricings-1 .border-left {
+		border-right: none !important;
+	}
+	.pricings-1 .border-right {
+		border-right: none !important;
+	}
+}
+
+
+/*end of pricings-1*/
