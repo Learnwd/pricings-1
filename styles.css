@@ -149,6 +149,7 @@
 @media (min-width: 992px) {
     .pricings-1 {
         height: 100vh;
+        min-height: 850px;
         padding-top: 0px;
         padding-bottom: 0px
         
